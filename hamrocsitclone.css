@@ -1,0 +1,280 @@
+:root{
+    --abc: black;
+
+}
+.dark{
+    --abc: white;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: 1px dotted red;
+}
+body{
+    margin-bottom: 1000px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 70px;
+    gap: 90px;
+    align-items: center;
+}
+
+.logo_main{
+    
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: min-content;
+}
+
+
+.menu_content{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 50%;
+   flex-wrap: wrap;
+   font-size: 1.5rem;
+}
+
+.menu_content li{
+    list-style: none;
+}
+.menu_content li a{
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.5s ease;
+    color: var(--abc);
+}
+.menu_content li a:hover{
+    color: #29AF92;
+}
+
+.logo{
+   font-size: 1.5rem;
+   font-weight: bold;
+}
+
+.logo2{
+    font-size: 1.5rem;
+}
+
+.logo_img{
+    width: 25%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.menu_right{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.menu_right i{
+    font-size: 1.5rem;
+}
+.menu_account{
+   display: flex;
+   justify-content:space-around;
+    background-color: #29AF92;
+    border-radius: 4px;
+    transition: all 0.5s ease;
+    padding: 4px;
+    gap: 2px;
+    padding-right: 7px;
+    position: relative;
+}
+
+.menu_account:hover{
+    background-color: greenyellow;
+}
+
+
+.acc_img{
+    border-radius: 50%;
+    height: 30px;
+}
+.account{
+    font-size: 1.2rem;
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+.account-extension{
+    box-shadow: 0px 0px 7px rgba(0,0,0,0.7);
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    top: 60px;
+    padding: 10px;
+    z-index: 2;
+
+    opacity: 0;
+}
+
+.account-extension:hover{
+    opacity: 1;
+}
+
+.container{
+    background-color: #EDEEF3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    gap: 150px;
+}
+
+.main_page{
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    margin-left: 50px;
+    gap: 30px;
+}
+
+.dark_mode{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #00AF92;
+    position: sticky;
+    top: 0;
+    animation: glow 2s infinite;
+}
+@keyframes glow{
+    0%{
+    box-shadow: 0 0 40px 0 #00AF92;
+    }
+    50%{
+        box-shadow: 0 0 0 0 #00AF92;
+    }
+    100%{
+        box-shadow: 0 0 40px 0 #00AF92;
+    }
+}
+
+.right_side{
+    display: flex;
+}
+
+.dark_mode i{
+    font-size: 2rem;
+    color: black;
+}
+.golo{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    bottom: 20px;
+    left: 300px;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+.new{
+    position: relative;
+}
+.new_after{
+    position: absolute;
+    bottom: 70%;
+    font-size: 0.7rem;
+    left: 75%;
+    color: red;
+}
+
+.hamro{
+    
+    height:500px;
+    padding-top: 100px;
+}
+
+.above_main_text{
+    font-size: 1.5rem;
+    color: #29AF92;
+}
+
+.main_text{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.main_text2{
+    color: #29AF92;
+}
+
+.text{
+    font-size: 20px;
+    
+}
+
+.search_bar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 0 5px;
+    z-index: 2;
+}
+
+.search{
+   width: 100%;
+    font-size: 2ch;
+    border: none;
+    /* outline: none; */
+
+}
+
+.fa-searchengin{
+    font-size: 1.7rem;
+    background-color: white;
+}
+
+.messenger{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 2rem;
+    background-color: blue;
+    position: fixed;
+    left: 30px;
+    bottom: 15px;
+}
+
+.dot{
+    
+    position: absolute;
+    left: 45%;
+    top: 40%;
+}
+
+.semester{
+    display: flex;
+    height: 50px;
+}
+
+
+.ads{
+    height: 50px;
+}

@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../Insta-Clone-main"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../javalab"
+		}
+	],
+	"settings": {
+		"java.project.sourcePaths": [],
+		"files.associations": {
+			"iostream": "cpp"
+		},
+		"liveServer.settings.multiRootWorkspaceName": "HamroCSIT Clone"
+	}
+}
