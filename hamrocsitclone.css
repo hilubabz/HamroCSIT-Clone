@@ -269,32 +269,3 @@ body{
     top: 40%;
 }
 
-.semester{
-    display: grid;
-    grid-template-columns: 80% 20%;
-    gap: 50px;
-    height: 300px;
-    margin-top: 70px;
-}
-
-
-.ads{
-    height: 300px;
-    width: 150px;
-    position: relative;
-    right: 1%;
-    
-}
-
-.photo-slider{
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-  }
-
-  .active {
-    opacity: 1;
-
-  }

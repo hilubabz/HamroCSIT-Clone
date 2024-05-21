@@ -18,3 +18,5 @@ let images = document.querySelectorAll('.photo-slider');
 
   images[currentIndex].classList.add('active');
   let sliderInterval = setInterval(changeImage, 2000);
+
+let button=document.querySelector('.dark_mode')

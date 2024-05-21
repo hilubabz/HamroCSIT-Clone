@@ -1,0 +1,103 @@
+
+.semester{
+    height: 300px;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    gap: 30px;
+
+}
+
+
+.ads{
+    height: 300px;
+    width: 150px;
+    position: relative;
+    
+}
+
+.photo-slider{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.active {
+    opacity: 1;
+  }
+
+  .sem-text{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .ads-side{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .CSIT{
+    color: #29AF92;
+  }
+
+  .align{
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .sem{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .first{
+    background-color: #CCE7FD;
+  }
+
+  .second {
+    background-color: #D3D3F3;
+  }
+
+  .third{
+    background-color: #F5E5B0;
+  }
+
+  .fourth{
+    background-color: #F3D6D6;
+  }
+
+  .fifth{
+    background-color: #F3E3D3;
+  }
+
+  .sixth{
+    background-color: #CFDBF3;
+  }
+
+  .seventh{
+    background-color: #D1F3ED;
+  }
+
+  .eight{
+    background-color: #CFF0D2;
+  }
+
+  .box{
+    align-items: center;
+  }
+
+ .icon{
+    background-color: white;
+    font-size: 1.5rem;
+    width: fit-content;
+    padding: 4px;
+ }
+
+ 
