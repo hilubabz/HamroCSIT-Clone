@@ -113,11 +113,10 @@
     top: 60px;
     padding: 10px;
     z-index: 2;
-
     opacity: 0;
 }
 
-.account-extension:hover{
+.dekhyo{
     opacity: 1;
 }
 

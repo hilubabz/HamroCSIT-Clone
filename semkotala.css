@@ -98,7 +98,7 @@
     justify-content: center;
     background-color: #00AF92;
     color: white;
-    animation: glow 2s ease;
+    animation: glow 2s infinite;
 }
 
 @keyframes glow {
