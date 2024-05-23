@@ -112,12 +112,13 @@
     width: 150px;
     top: 60px;
     padding: 10px;
-    z-index: 2;
+    z-index: 0;
     opacity: 0;
 }
 
 .dekhyo{
     opacity: 1;
+    z-index: 2;
 }
 
 .container{
